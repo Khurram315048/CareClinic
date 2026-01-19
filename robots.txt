@@ -1,0 +1,9 @@
+# User-agent: * means this rule applies to all search engines (Google, Bing, Ahrefs, etc.)
+User-agent: *
+Allow: /
+
+# Disallow crawling of system or private folders (optional)
+Disallow: /assets/vendor/
+
+# SITEMAP LOCATION: This helps bots find your sitemap quickly
+Sitemap: https://careci.netlify.app/sitemap.xml
